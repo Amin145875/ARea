@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	//varriable declaration and initialisation
+	float radius, height, volume;
+// ask user output
+
+	cout << "enter the the radius of a cylinder:\n";
+	cin >> radius;
+	cout << "enter the height of a cylinder:\n";
+	cin >> height;
+
+    //calculations.
+	volume = 3.141592 * radius * radius * height;
+    // output on the screen
+	cout << "volume of cylinder is:" << volume;
+
+	return 0;
+}
